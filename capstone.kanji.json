@@ -1,0 +1,720 @@
+[{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ea7"
+  },
+  "Kanji": "日",
+  "Onyomi": "nichi, jitsu",
+  "Kunyomi": "hi, -bi, -ka",
+  "Meaning": "day, sun, Japan, counter for days"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb0"
+  },
+  "Kanji": "中",
+  "Onyomi": "chuu",
+  "Kunyomi": "naka, uchi, ata(ru)",
+  "Meaning": "in, inside, middle, mean, center"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eab"
+  },
+  "Kanji": "年",
+  "Onyomi": "nen",
+  "Kunyomi": "toshi",
+  "Meaning": "year, counter for years"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eae"
+  },
+  "Kanji": "二",
+  "Onyomi": "ni, ji",
+  "Kunyomi": "futa(tsu)",
+  "Meaning": "two, 2"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb3"
+  },
+  "Kanji": "三",
+  "Onyomi": "san",
+  "Kunyomi": "mi(tsu)",
+  "Meaning": "three, 3"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb8"
+  },
+  "Kanji": "分",
+  "Onyomi": "bun, fun, bu",
+  "Kunyomi": "wa(keru)",
+  "Meaning": "part, minute of time, understand"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ecc"
+  },
+  "Kanji": "下",
+  "Onyomi": "ka, ge",
+  "Kunyomi": "shita, shimo, moto, sa(geru), kuda(ru), o(rosu)",
+  "Meaning": "below, down, descend, give, low, inferior"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63edb"
+  },
+  "Kanji": "千",
+  "Onyomi": "sen",
+  "Kunyomi": "chi",
+  "Meaning": "thousand"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee0"
+  },
+  "Kanji": "電",
+  "Onyomi": "den",
+  "Kunyomi": "",
+  "Meaning": "electricity; electric powered"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee3"
+  },
+  "Kanji": "土",
+  "Onyomi": "do, to",
+  "Kunyomi": "tsuchi",
+  "Meaning": "soil, earth, ground"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee4"
+  },
+  "Kanji": "木",
+  "Onyomi": "boku, moku",
+  "Kunyomi": "ki, ko",
+  "Meaning": "tree, wood"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb5"
+  },
+  "Kanji": "行",
+  "Onyomi": "kou, gyou, an",
+  "Kunyomi": "i(ku), yu(ku), okona(u)",
+  "Meaning": "going, journey, carry out, line, row"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb6"
+  },
+  "Kanji": "見",
+  "Onyomi": "ken",
+  "Kunyomi": "mi(ru), mi(seru)",
+  "Meaning": "see, hopes, chances, idea, opinion, look at, visible"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb9"
+  },
+  "Kanji": "後",
+  "Onyomi": "go, kou",
+  "Kunyomi": "nochi, ushi(ro), ato",
+  "Meaning": "behind, back, later"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ebd"
+  },
+  "Kanji": "間",
+  "Onyomi": "kan, ken",
+  "Kunyomi": "aida, ma, ai",
+  "Meaning": "interval, space"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec0"
+  },
+  "Kanji": "四",
+  "Onyomi": "shi",
+  "Kunyomi": "yo(tsu), yon",
+  "Meaning": "four, 4"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec3"
+  },
+  "Kanji": "九",
+  "Onyomi": "kyuu, ku",
+  "Kunyomi": "kokono(tsu)",
+  "Meaning": "nine, 9"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec5"
+  },
+  "Kanji": "学",
+  "Onyomi": "gaku",
+  "Kunyomi": "mana(bu)",
+  "Meaning": "study, learning, science"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ece"
+  },
+  "Kanji": "気",
+  "Onyomi": "ki, ke",
+  "Kunyomi": "iki",
+  "Meaning": "spirit, mind, air, atmosphere, mood"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ecf"
+  },
+  "Kanji": "小",
+  "Onyomi": "shou",
+  "Kunyomi": "chii(sai), ko-, o-, sa-",
+  "Meaning": "little, small"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed0"
+  },
+  "Kanji": "七",
+  "Onyomi": "shichi",
+  "Kunyomi": "nana(tsu), nano",
+  "Meaning": "seven, 7"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed3"
+  },
+  "Kanji": "女",
+  "Onyomi": "jo",
+  "Kunyomi": "onnna, me",
+  "Meaning": "woman, female"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed9"
+  },
+  "Kanji": "名",
+  "Onyomi": "mei, myou",
+  "Kunyomi": "na",
+  "Meaning": "name, noted, distinguished, reputation"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63edd"
+  },
+  "Kanji": "半",
+  "Onyomi": "han",
+  "Kunyomi": "naka(ba)",
+  "Meaning": "half, middle, odd number, semi-"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63edf"
+  },
+  "Kanji": "西",
+  "Onyomi": "sei, sai",
+  "Kunyomi": "nishi",
+  "Meaning": "west"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee1"
+  },
+  "Kanji": "校",
+  "Onyomi": "kou",
+  "Kunyomi": "",
+  "Meaning": "school, exam"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee2"
+  },
+  "Kanji": "語",
+  "Onyomi": "go",
+  "Kunyomi": "kata(ru)",
+  "Meaning": "word, speech, language"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee5"
+  },
+  "Kanji": "聞",
+  "Onyomi": "bun, mon",
+  "Kunyomi": "ki(ku)",
+  "Meaning": "to hear; to listen; to ask"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee6"
+  },
+  "Kanji": "食",
+  "Onyomi": "shoku, jiki",
+  "Kunyomi": "k(u), ta(beru), ha(mu)",
+  "Meaning": "eat, food"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ea9"
+  },
+  "Kanji": "国",
+  "Onyomi": "koku",
+  "Kunyomi": "kuni",
+  "Meaning": "country"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb4"
+  },
+  "Kanji": "時",
+  "Onyomi": "ji",
+  "Kunyomi": "toki, doki",
+  "Meaning": "time, hour"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb7"
+  },
+  "Kanji": "月",
+  "Onyomi": "getsu, gatsu",
+  "Kunyomi": "tsuki",
+  "Meaning": "month, moon"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ebb"
+  },
+  "Kanji": "生",
+  "Onyomi": "sei, shou",
+  "Kunyomi": "i(kiru), u(mu), o(u), ha(eru), nama",
+  "Meaning": "life, genuine, birth"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ebc"
+  },
+  "Kanji": "五",
+  "Onyomi": "go",
+  "Kunyomi": "itsu(tsu)",
+  "Meaning": "five, 5"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec2"
+  },
+  "Kanji": "金",
+  "Onyomi": "kin, kon, gon",
+  "Kunyomi": "kane, kana, gane",
+  "Meaning": "gold"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec4"
+  },
+  "Kanji": "入",
+  "Onyomi": "nyuu",
+  "Kunyomi": "i(ru), hai(ru)",
+  "Meaning": "enter, insert"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec7"
+  },
+  "Kanji": "円",
+  "Onyomi": "en",
+  "Kunyomi": "maru(i)",
+  "Meaning": "circle, yen, round"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eca"
+  },
+  "Kanji": "八",
+  "Onyomi": "hachi",
+  "Kunyomi": "ya(tsu), you",
+  "Meaning": "eight, 8"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ecb"
+  },
+  "Kanji": "六",
+  "Onyomi": "roku",
+  "Kunyomi": "mu(tsu), mui",
+  "Meaning": "six, 6"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed1"
+  },
+  "Kanji": "山",
+  "Onyomi": "san, sen",
+  "Kunyomi": "yama",
+  "Meaning": "mountain"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed2"
+  },
+  "Kanji": "話",
+  "Onyomi": "wa",
+  "Kunyomi": "hana(su), hanashi",
+  "Meaning": "tale, talk"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed4"
+  },
+  "Kanji": "北",
+  "Onyomi": "hoku",
+  "Kunyomi": "kita",
+  "Meaning": "north"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed5"
+  },
+  "Kanji": "午",
+  "Onyomi": "go",
+  "Kunyomi": "uma",
+  "Meaning": "noon, sign of the horse"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63edc"
+  },
+  "Kanji": "水",
+  "Onyomi": "sui",
+  "Kunyomi": "mizu",
+  "Meaning": "water"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ede"
+  },
+  "Kanji": "男",
+  "Onyomi": "dan, nan",
+  "Kunyomi": "otoko, o",
+  "Meaning": "male; man"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ea8"
+  },
+  "Kanji": "一",
+  "Onyomi": "ichi",
+  "Kunyomi": "hito(tsu)",
+  "Meaning": "one"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eaa"
+  },
+  "Kanji": "人",
+  "Onyomi": "jin, nin",
+  "Kunyomi": "hito",
+  "Meaning": "person"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eac"
+  },
+  "Kanji": "大",
+  "Onyomi": "dai, tai",
+  "Kunyomi": "oo(kii)",
+  "Meaning": "large, big"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ead"
+  },
+  "Kanji": "十",
+  "Onyomi": "juu",
+  "Kunyomi": "tou, to",
+  "Meaning": "ten, 10"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eaf"
+  },
+  "Kanji": "本",
+  "Onyomi": "hon",
+  "Kunyomi": "moto",
+  "Meaning": "book, present, true, counter for long cylindrical things"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb1"
+  },
+  "Kanji": "長",
+  "Onyomi": "chou",
+  "Kunyomi": "naga(i), osa",
+  "Meaning": "long, leader, superior, senior"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eb2"
+  },
+  "Kanji": "出",
+  "Onyomi": "shutsu, sui",
+  "Kunyomi": "de(ru), da(su), i(deru)",
+  "Meaning": "exit, leave, go out"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eba"
+  },
+  "Kanji": "前",
+  "Onyomi": "zen",
+  "Kunyomi": "mae",
+  "Meaning": "in front, before"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ebe"
+  },
+  "Kanji": "上",
+  "Onyomi": "jou, shou, shan",
+  "Kunyomi": "ue, uwa, kami, a(geru), nobo(ru), tatematsu(ru)",
+  "Meaning": "above, up"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ebf"
+  },
+  "Kanji": "東",
+  "Onyomi": "tou",
+  "Kunyomi": "higashi",
+  "Meaning": "east"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec1"
+  },
+  "Kanji": "今",
+  "Onyomi": "kon, kin",
+  "Kunyomi": "ima",
+  "Meaning": "now; the present"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec6"
+  },
+  "Kanji": "高",
+  "Onyomi": "kou",
+  "Kunyomi": "taka(i)",
+  "Meaning": "tall, high, expensive"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec8"
+  },
+  "Kanji": "子",
+  "Onyomi": "shi, su, tsu",
+  "Kunyomi": "ko, ne",
+  "Meaning": "child"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ec9"
+  },
+  "Kanji": "外",
+  "Onyomi": "gai, ge",
+  "Kunyomi": "soto, hoka, hazu-, to-",
+  "Meaning": "outside"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ecd"
+  },
+  "Kanji": "来",
+  "Onyomi": "rai, tai",
+  "Kunyomi": "kuru, kitaru, ki, ko",
+  "Meaning": "come, due, next, cause, become"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed6"
+  },
+  "Kanji": "百",
+  "Onyomi": "hyaku, byaku",
+  "Kunyomi": "momo",
+  "Meaning": "hundred"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed7"
+  },
+  "Kanji": "書",
+  "Onyomi": "sho",
+  "Kunyomi": "kaku",
+  "Meaning": "write"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ed8"
+  },
+  "Kanji": "先",
+  "Onyomi": "sen",
+  "Kunyomi": "saki, ma(zu)",
+  "Meaning": "before, ahead, previous, future, precedence"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eda"
+  },
+  "Kanji": "川",
+  "Onyomi": "sen",
+  "Kunyomi": "kawa",
+  "Meaning": "river, stream"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee7"
+  },
+  "Kanji": "車",
+  "Onyomi": "sha",
+  "Kunyomi": "kuruma",
+  "Meaning": "car, wheel"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eeb"
+  },
+  "Kanji": "毎",
+  "Onyomi": "mai",
+  "Kunyomi": "goto(ni)",
+  "Meaning": "every"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee9"
+  },
+  "Kanji": "南",
+  "Onyomi": "nan, na",
+  "Kunyomi": "minami",
+  "Meaning": "south"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eed"
+  },
+  "Kanji": "天",
+  "Onyomi": "ten",
+  "Kunyomi": "amatsu",
+  "Meaning": "heavens, sky, imperial"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eee"
+  },
+  "Kanji": "母",
+  "Onyomi": "bo",
+  "Kunyomi": "haha, kaa",
+  "Meaning": "mother"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef1"
+  },
+  "Kanji": "読",
+  "Onyomi": "doku, toku, tou",
+  "Kunyomi": "yo(mu)",
+  "Meaning": "to read"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef3"
+  },
+  "Kanji": "左",
+  "Onyomi": "sa, sha",
+  "Kunyomi": "hidari",
+  "Meaning": "left"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef6"
+  },
+  "Kanji": "雨",
+  "Onyomi": "u",
+  "Kunyomi": "ame, ama",
+  "Meaning": "rain"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eec"
+  },
+  "Kanji": "白",
+  "Onyomi": "haku, byaku",
+  "Kunyomi": "shiro(i)",
+  "Meaning": "white"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef0"
+  },
+  "Kanji": "右",
+  "Onyomi": "u, yuu",
+  "Kunyomi": "migi",
+  "Meaning": "right (direction)"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ee8"
+  },
+  "Kanji": "何",
+  "Onyomi": "ka",
+  "Kunyomi": "nani, nan",
+  "Meaning": "what"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eea"
+  },
+  "Kanji": "万",
+  "Onyomi": "man, ban",
+  "Kunyomi": "",
+  "Meaning": "ten thousand, 10,000"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef2"
+  },
+  "Kanji": "友",
+  "Onyomi": "yuu",
+  "Kunyomi": "tomo",
+  "Meaning": "friend"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63eef"
+  },
+  "Kanji": "火",
+  "Onyomi": "ka",
+  "Kunyomi": "hi, bi, ho",
+  "Meaning": "fire"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef4"
+  },
+  "Kanji": "休",
+  "Onyomi": "kyuu",
+  "Kunyomi": "yasu(mu)",
+  "Meaning": "rest, day off, retire, sleep"
+},
+{
+  "_id": {
+    "$oid": "67396ed5c879be4e55d63ef5"
+  },
+  "Kanji": "父",
+  "Onyomi": "fu",
+  "Kunyomi": "chichi, tou",
+  "Meaning": "father"
+}]
