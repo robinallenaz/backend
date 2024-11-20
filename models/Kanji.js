@@ -18,6 +18,9 @@ const kanjiSchema = new mongoose.Schema({
     type: String,
     default: ''
   }
+}, { 
+  // Add timestamps option to automatically add createdAt and updatedAt fields
+  timestamps: true 
 });
 
 module.exports = mongoose.model('Kanji', kanjiSchema);
