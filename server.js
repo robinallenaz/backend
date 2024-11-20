@@ -70,7 +70,8 @@ app.get('/', (req, res) => {
     status: 'OK',
     endpoints: [
       '/api/kanji (GET, POST)',
-      '/api/kanji/:id (GET, PUT, DELETE)'
+      '/api/kanji/:id (GET, PUT, DELETE)',
+      '/api/kanji (DELETE)'
     ]
   });
 });
@@ -150,6 +151,26 @@ kanjiRouter.delete('/:id', async (req, res, next) => {
     await kanji.deleteOne();
     res.json({ message: 'Kanji deleted successfully' });
   } catch (error) {
+    next(error);
+  }
+});
+
+// DELETE all kanji
+kanjiRouter.delete('/', async (req, res, next) => {
+  try {
+    console.log('Received request to delete all kanji');
+    
+    // Delete all documents in the Kanji collection
+    const result = await Kanji.deleteMany({});
+    
+    console.log('Deleted Kanji Count:', result.deletedCount);
+    
+    res.json({ 
+      message: 'All kanji deleted successfully', 
+      deletedCount: result.deletedCount 
+    });
+  } catch (error) {
+    console.error('Error in DELETE /api/kanji:', error);
     next(error);
   }
 });
