@@ -71,7 +71,8 @@ app.get('/', (req, res) => {
     endpoints: [
       '/api/kanji (GET, POST)',
       '/api/kanji/:id (GET, PUT, DELETE)',
-      '/api/kanji (DELETE)'
+      '/api/kanji (DELETE)',
+      '/api/kanji/random (GET)'
     ]
   });
 });
@@ -93,6 +94,55 @@ kanjiRouter.get('/', async (req, res, next) => {
     res.json(kanjiList);
   } catch (error) {
     console.error('Error in GET /api/kanji:', error);
+    next(error);
+  }
+});
+
+// Default kanji set for empty collections
+const defaultKanjiSet = [
+  { Kanji: "水", Onyomi: "スイ", Kunyomi: "みず", Meaning: "water" },
+  { Kanji: "火", Onyomi: "カ", Kunyomi: "ひ", Meaning: "fire" },
+  { Kanji: "木", Onyomi: "モク", Kunyomi: "き", Meaning: "tree" },
+  { Kanji: "金", Onyomi: "キン", Kunyomi: "かね", Meaning: "gold" },
+  { Kanji: "土", Onyomi: "ド", Kunyomi: "つち", Meaning: "earth" },
+  { Kanji: "日", Onyomi: "ニチ", Kunyomi: "ひ", Meaning: "sun" },
+  { Kanji: "月", Onyomi: "ゲツ", Kunyomi: "つき", Meaning: "moon" },
+  { Kanji: "山", Onyomi: "サン", Kunyomi: "やま", Meaning: "mountain" },
+  { Kanji: "川", Onyomi: "セン", Kunyomi: "かわ", Meaning: "river" },
+  { Kanji: "田", Onyomi: "デン", Kunyomi: "た", Meaning: "rice field" }
+];
+
+// GET random kanji
+kanjiRouter.get('/random', async (req, res, next) => {
+  try {
+    console.log('Fetching random kanji with limit:', req.query.limit);
+    const limit = parseInt(req.query.limit) || 6;
+    
+    // Check if there are any kanji in the database
+    const count = await Kanji.countDocuments();
+    if (count === 0) {
+      console.log('No kanji found in database, using default set');
+      // Shuffle and slice the default set
+      const shuffled = [...defaultKanjiSet].sort(() => 0.5 - Math.random());
+      const selectedKanji = shuffled.slice(0, limit);
+      return res.json({ 
+        kanji: selectedKanji,
+        isDefaultSet: true 
+      });
+    }
+
+    // Get random kanji from user's collection
+    const kanjiList = await Kanji.aggregate([
+      { $sample: { size: Math.min(limit, count) } }
+    ]);
+
+    console.log(`Found ${kanjiList.length} random kanji`);
+    res.json({ 
+      kanji: kanjiList,
+      isDefaultSet: false 
+    });
+  } catch (error) {
+    console.error('Error in GET /random:', error);
     next(error);
   }
 });
