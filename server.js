@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const Kanji = require('./models/Kanji');
+const axios = require('axios');
 
 const app = express();
 
@@ -227,6 +228,21 @@ kanjiRouter.delete('/', async (req, res, next) => {
 
 // Mount the router
 app.use('/api/kanji', kanjiRouter);
+
+// Dictionary proxy endpoint
+app.get('/api/dictionary/search', async (req, res, next) => {
+  try {
+    const { query } = req.query;
+    if (!query) {
+      return res.status(400).json({ message: 'Query parameter is required' });
+    }
+
+    const response = await axios.get(`https://jisho.org/api/v1/search/words?keyword=${encodeURIComponent(query)}`);
+    res.json(response.data);
+  } catch (error) {
+    next(error);
+  }
+});
 
 // Use error handling middleware
 app.use(errorHandler);
